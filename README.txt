@@ -9,3 +9,14 @@ for online installation please RUN:
 5. systemctl status cybereason-sensor
 
 pastikan point 5 running
+
+tolong di tanyakan ke tim EDR sudah masuk ke dashboard atau tidak 
+jika belum lanjutkan no 6
+
+6. nano /opt/cybereason/sensor/etc/sensor.conf
+7. delete pylum yg ada pada -->     server.channelName=PylumIDXXXXXXXXXXX    ubah menjadi server.is_vm=false
+save perubahan yang ada pada sensor.conf 
+8. systemctl restart cybereason-sensor
+9. systemctl status cybereason-sensor -- pastikan running
+
+konfirmasi lagi dengan tim EDR untuk check apakah server sudah masuk ke cybereason dashboard.
