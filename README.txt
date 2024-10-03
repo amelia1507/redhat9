@@ -20,3 +20,9 @@ save perubahan yang ada pada sensor.conf
 9. systemctl status cybereason-sensor -- pastikan running
 
 konfirmasi lagi dengan tim EDR untuk check apakah server sudah masuk ke cybereason dashboard.
+
+jika dari tim EDR menginformasikan bahwa EDR masih belum muncul di dashboard, tolong dilanjut point 10. 
+
+10. ambil semua file yang ada pada /opt/cybereason/sensor/Logs/  
+dan berikan file tersebut ke kami keseluruhan file yang ada pada Logs. 
+
